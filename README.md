@@ -27,8 +27,6 @@ pip install -r requirements.txt
 ```bash
 python main.py
 ```
-## 🎬 Screenshots / Demo
-(Coming Soon...)
 ## 🗂️ Project Structure
 ```
 📁 Mean-Variance-Standard-Deviation-Calculator
@@ -51,32 +49,42 @@ print(result)
 Expected output:
 ```python
 {
-  'mean': [1., 4., 7.],
-  'variance': [...],
-  'standard deviation': [...],
-  'max': [...],
-  'min': [...],
-  'sum': [...]
+ 'mean': [
+   [3.0, 4.0, 5.0],
+   [1.0, 4.0, 7.0],
+   4.0
+ ],
+ 'variance': [...],
+ 'standard deviation': [...],
+ 'max': [...],
+ 'min': [...],
+ 'sum': [...]
 }
 
+
 ```
-## 💾 Data Storage
-No data is stored.
-All calculations are performed in-memory on the provided list.
 ## ✅ Tests
 Run the FreeCodeCamp test suite:
 ```bash
 python test_module.py
 ```
+## 🧠 How It Works
+1. The input list is reshaped into a 3×3 NumPy matrix.
+2. Statistical metrics are computed across:
+   - Columns (axis=0)
+   - Rows (axis=1)
+   - The entire matrix
+3. Results are returned in a Python dictionary.
+
 ## 🤝 Contributing
 Contributions are welcome!
 1. Fork the repository
 2. Create a new feature branch
 3. Submit a pull request
-Please ensure your code is clean structure and well-commented.
+Please ensure your code is clean, structured, and well-commented.
 ## 📝 License
 This project is licensed under the MIT license - see the LICENSE file for details. 
 ## 📞 Support
-If you have questions or issues:
-Open an Issue on GitHub
-Or contact me on LinkedIn
+If you have questions or need help, feel free to:
+- Open an issue on this repository  
+- Connect with me on LinkedIn: https://www.linkedin.com/in/radwanhefny  
