@@ -16,7 +16,7 @@ Before running this project, ensure you have:
 ## 🚀 Getting Started
 1. Clone the repository:
 ```bash
-git clone https://github.com/your-username/Mean-Variance-Standard-Deviation-Calculator.git
+git clone https://github.com/radwanhefny/Mean-Variance-Standard-Deviation-Calculator.git
 cd Mean-Variance-Standard-Deviation-Calculator
 ```
 2. Install dependencies:
